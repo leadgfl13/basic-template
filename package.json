@@ -4,7 +4,8 @@
   "description": "A basic templace to act as a launching pad for future projects.  Uses npm and webpack to bundle everything together.",
 "private":true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
