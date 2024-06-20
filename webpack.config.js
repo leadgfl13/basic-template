@@ -21,10 +21,22 @@ module.exports = {
 ],
   module: {
     rules: [
+      //css loader
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
+      //css image loader
+
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+// font loader
+     {
+       test: /\.(woff|woff2|eot|ttf|otf)$/i,
+       type: 'asset/resource',
+     },
     ],
     
   },
