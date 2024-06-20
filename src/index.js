@@ -1,5 +1,5 @@
-import './style.css';
+import "./style.css";
 
-addEventListener('click',()=>{
-    alert("Hello")
-})
+addEventListener("click", () => {
+	alert("Hello");
+});
